@@ -1,0 +1,16 @@
+# Domino pixelmap data
+_pixelmaps/
+_pixelmaps/*
+
+# JSON
+*.json
+
+# VSCODE
+*.code-workspace
+
+# POETRY
+poetry.lock
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+__pycache__/*
