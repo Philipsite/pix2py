@@ -129,6 +129,23 @@ class PixelMap:
 
         return fig, ax
 
+    def plot_isolines(self, variable: str, mineral: str):
+        pix_array = self.read_mineral_pixelmap(variable, mineral)
+
+        fig, ax = plt.subplots()
+        im = ax.contourf(self.PT_grid[0], self.PT_grid[1], pix_array, cmap="viridis", origin="lower",
+                         extent=[self.T_limits[0], self.T_limits[1], self.P_limits[0], self.P_limits[1]])
+        ax.set_xlabel("Temperature (°C)")
+        ax.set_ylabel("Pressure (bar)")
+
+        if variable == "vol":
+            label = f"Volume fraction of {mineral}"
+        else:
+            label = f"{variable} of {mineral}"
+        fig.colorbar(im, ax=ax, label=label)
+
+        return fig, ax
+
 
 GLOBAL_ENDMEMBER_DICT = {}
 
