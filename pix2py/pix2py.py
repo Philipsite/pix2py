@@ -105,6 +105,9 @@ class PixelMap:
 
             pix_array = pix_array / total_volume
 
+        # for all pix_map the value 0 is replaced by NaN, since the mineral is not stable at that P-T condition
+        pix_array[pix_array == 0] = np.nan
+
         return pix_array
 
     @staticmethod
