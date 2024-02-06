@@ -80,8 +80,18 @@ class PixelMap:
         # initialize a zero array to store all pixelmaps
         pix_array = np.zeros((self.T_noSteps, self.P_noSteps))
 
-        for endmember in endmember_solid_solution:
-            filename = f"{variable}_[{endmember}]"
+        if isinstance(endmember_solid_solution, tuple):
+            for endmember in endmember_solid_solution:
+                filename = f"{variable}_[{endmember}]"
+
+                if filename in self.pixmap_names:
+                    pix_array += self.read_pixelmap_file(self.pixelmap_dir / filename, (self.T_noSteps, self.P_noSteps))
+
+                else:
+                    print(f"INFO: {filename} not found in {self.pixelmap_dir}. Skipping this endmember.")
+        # work around for phases with no solid solution (define a single "endmember" in the endmember_dict) and create a filename without square brackets
+        elif isinstance(endmember_solid_solution, str):
+            filename = f"{variable}_{endmember_solid_solution}"
 
             if filename in self.pixmap_names:
                 pix_array += self.read_pixelmap_file(self.pixelmap_dir / filename, (self.T_noSteps, self.P_noSteps))

@@ -2,6 +2,10 @@
 _pixelmaps/
 _pixelmaps/*
 
+# notebooks
+notebooks/
+notebooks/*
+
 # JSON
 *.json
 
