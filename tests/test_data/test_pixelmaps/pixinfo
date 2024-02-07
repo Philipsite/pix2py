@@ -1,0 +1,227 @@
+Temperature [C]
+Pressure [Bar]
+  4.000000000000E+02    7.000000000000E+02    1.000000000000E+03    1.000000000000E+04
+   15.0000     15.0000
+   50     50      2
+  19
+ 
+domino version: 28.05.2022
+database: JUN92d_ALT.bs
+Ab: ABSAL
+H2O: HAAR
+OLIVINEi: ideal
+SPIN: ideal+margules
+ILM: ideal
+GARNET: site mixing+margules
+FSP2: site mixing+margules
+BIOTITE: ideal
+WHITE MICA: ideal+margules
+STAU: site mixing+margules
+OPX: ideal
+OMPH: ideal+margules
+CHL4: ideal
+CORD: ideal
+CTOID: ideal
+AMPHx: ideal+margules
+   1
+SI(22.84)TI(0.24)AL(7.78)FE(2.04)MN(0.02)MG(1.28)CA(0.25)NA(0.95)K(1.79)H(30)O(?)O(0.235)
+G_system                        
+G_tot                           
+S_tot                           
+V_tot                           
+H_tot                           
+TS_tot                          
+PV-_tot                         
+U_tot                           
+V_solids                        
+rho_solids                      
+n_H2O_solids                    
+wt_H2O_solids                   
+pcH2O_solids                    
+n_[Ab]                          
+x_Ab_[Ab]                       
+x_Kfs_[Ab]                      
+x_An_[Ab]                       
+n_[Phl]                         
+x_Phl_[Phl]                     
+x_Ann_[Phl]                     
+n_[Ms]                          
+x_Ms_[Ms]                       
+x_Pg_[Ms]                       
+x_MgC_[Ms]                      
+x_FeC_[Ms]                      
+n_[Pen]                         
+x_Ame_[Pen]                     
+x_Pen_[Pen]                     
+x_FeAm_[Pen]                    
+x_FeP_[Pen]                     
+n_Mt                            
+n_Rt                            
+n_aQz                           
+n_mnbi                          
+n_H2O                           
+vol_[Ab]                        
+rho_[Ab]                        
+Si_pfu_[Ab]                     
+Al_pfu_[Ab]                     
+vol_[Phl]                       
+rho_[Phl]                       
+Mg#_[Phl]                       
+vol_[Ms]                        
+rho_[Ms]                        
+Mg#_[Ms]                        
+Si_pfu_[Ms]                     
+Al_pfu_[Ms]                     
+vol_[Pen]                       
+rho_[Pen]                       
+Mg#_[Pen]                       
+Si_pfu_[Pen]                    
+Al_pfu_[Pen]                    
+vol_Mt                          
+rho_Mt                          
+vol_Rt                          
+rho_Rt                          
+vol_aQz                         
+rho_aQz                         
+vol_mnbi                        
+rho_mnbi                        
+vol_H2O                         
+rho_H2O                         
+n_H2O_[Phl]                     
+wt_H2O_[Phl]                    
+n_H2O_[Ms]                      
+wt_H2O_[Ms]                     
+n_H2O_[Pen]                     
+wt_H2O_[Pen]                    
+n_H2O_mnbi                      
+wt_H2O_mnbi                     
+n_H2O_H2O                       
+wt_H2O_H2O                      
+assemblage                      
+n_[spf]                         
+x_Gr_[spf]                      
+x_Py_[spf]                      
+x_Alm_[spf]                     
+x_spf_[spf]                     
+vol_[spf]                       
+rho_[spf]                       
+Mg#_[spf]                       
+n_[Ame]                         
+x_Ame_[Ame]                     
+x_Pen_[Ame]                     
+x_FeAm_[Ame]                    
+x_FeP_[Ame]                     
+vol_[Ame]                       
+rho_[Ame]                       
+Mg#_[Ame]                       
+Si_pfu_[Ame]                    
+Al_pfu_[Ame]                    
+n_H2O_[Ame]                     
+wt_H2O_[Ame]                    
+n_[Ilm]                         
+x_Ilm_[Ilm]                     
+x_Gk_[Ilm]                      
+vol_[Ilm]                       
+rho_[Ilm]                       
+Mg#_[Ilm]                       
+n_[Cd]                          
+x_Cd_[Cd]                       
+x_hCd_[Cd]                      
+x_fCd_[Cd]                      
+x_hfCd_[Cd]                     
+vol_[Cd]                        
+rho_[Cd]                        
+Mg#_[Cd]                        
+n_H2O_[Cd]                      
+wt_H2O_[Cd]                     
+n_[Kfs]                         
+x_Ab_[Kfs]                      
+x_Kfs_[Kfs]                     
+x_An_[Kfs]                      
+vol_[Kfs]                       
+rho_[Kfs]                       
+Si_pfu_[Kfs]                    
+Al_pfu_[Kfs]                    
+n_[Alm]                         
+x_Gr_[Alm]                      
+x_Py_[Alm]                      
+x_Alm_[Alm]                     
+x_spf_[Alm]                     
+vol_[Alm]                       
+rho_[Alm]                       
+Mg#_[Alm]                       
+n_bQz                           
+vol_bQz                         
+rho_bQz                         
+n_[Ann]                         
+x_Phl_[Ann]                     
+x_Ann_[Ann]                     
+vol_[Ann]                       
+rho_[Ann]                       
+Mg#_[Ann]                       
+n_H2O_[Ann]                     
+wt_H2O_[Ann]                    
+n_[femg]                        
+x_En_[femg]                     
+x_Fsl_[femg]                    
+x_femg_[femg]                   
+x_mgfe_[femg]                   
+x_MgTs_[femg]                   
+x_FeTs_[femg]                   
+vol_[femg]                      
+rho_[femg]                      
+Mg#_[femg]                      
+Si_pfu_[femg]                   
+Al_pfu_[femg]                   
+n_Sph                           
+vol_Sph                         
+rho_Sph                         
+n_[FeP]                         
+x_Ame_[FeP]                     
+x_Pen_[FeP]                     
+x_FeAm_[FeP]                    
+x_FeP_[FeP]                     
+vol_[FeP]                       
+rho_[FeP]                       
+Mg#_[FeP]                       
+Si_pfu_[FeP]                    
+Al_pfu_[FeP]                    
+n_H2O_[FeP]                     
+wt_H2O_[FeP]                    
+n_[Pg]                          
+x_Ms_[Pg]                       
+x_Pg_[Pg]                       
+x_MgC_[Pg]                      
+x_FeC_[Pg]                      
+vol_[Pg]                        
+rho_[Pg]                        
+Mg#_[Pg]                        
+Si_pfu_[Pg]                     
+Al_pfu_[Pg]                     
+n_H2O_[Pg]                      
+wt_H2O_[Pg]                     
+n_[FSt]                         
+x_FSt_[FSt]                     
+x_MSt_[FSt]                     
+vol_[FSt]                       
+rho_[FSt]                       
+Mg#_[FSt]                       
+n_H2O_[FSt]                     
+wt_H2O_[FSt]                    
+n_Si                            
+vol_Si                          
+rho_Si                          
+n_Ky                            
+vol_Ky                          
+rho_Ky                          
+n_[Parg]                        
+x_Tr_[Parg]                     
+x_Tsc_[Parg]                    
+x_Parg_[Parg]                   
+vol_[Parg]                      
+rho_[Parg]                      
+Mg#_[Parg]                      
+Si_pfu_[Parg]                   
+Al_pfu_[Parg]                   
+n_H2O_[Parg]                    
+wt_H2O_[Parg]                   
