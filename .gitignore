@@ -18,3 +18,7 @@ poetry.lock
 # Byte-compiled / optimized / DLL files
 __pycache__/
 __pycache__/*
+
+# dist
+dist/
+dist/*
