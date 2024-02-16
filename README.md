@@ -27,7 +27,7 @@ To use pix2py, you need to have a pixelmap folder called ```_pixelmaps``` genera
 ```python
 from pathlib import Path
 
-pixelmap_dir = Path("{path_to_pixelmap_folder}", "_pixelmaps")
+pixelmap_dir = Path("{INSERT PATH HERE}", "_pixelmaps")
 ```
 
 Since the individual pixelmaps for solid solution phases are named after the dominant endmember, you need to provide a dictionary to map a phase name to all endmember names for that phase in the thermodynamic database used to generate the pixelmaps.\
