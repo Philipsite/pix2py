@@ -144,40 +144,76 @@ class PixelMap:
 
         return pixelmap_grid
 
-    def plot_pixelmap(self, variable: str, mineral: str):
+    def plot_pixelmap(self, variable: str, mineral: str, colormap="viridis", volume_percent=False):
+        """Plot a pixelmap of a given variable and mineral.
+
+        Args:
+            variable (str): Available variable names: "Al_pfu", "Mg#", "n", "n_H2O", "rho", "vol", "wt_H20", "x_{ENDMEMBER}"
+            mineral (str): A mineral defined in the endmember_dict.
+            colormap (str, optional): A matplotlib colormap, e.g. "viridis", "plasma", "inferno", "magma", "cividis". Defaults to "viridis".
+            volume_percent (bool, optional): Plots volume fraction as vol% if True. Defaults to False.
+
+        Returns:
+            fig: A matplotlib Figure object.
+            ax: A matplotlib Axes object.
+        """
         pix_array = self.read_mineral_pixelmap(variable, mineral)
 
+        if variable == "vol":
+            if volume_percent:
+                pix_array = pix_array * 100
+                label = f"{mineral} [vol%]"
+            else:
+                label = f"Volume fraction of {mineral}"
+        else:
+            label = f"{variable} of {mineral}"
+
         fig, ax = plt.subplots()
-        im = ax.imshow(pix_array, cmap="viridis", origin="lower",
+        im = ax.imshow(pix_array, cmap=colormap, origin="lower",
                        extent=[self.T_limits[0], self.T_limits[1], self.P_limits[0]/1000, self.P_limits[1]/1000], aspect="auto")
         ax.set_xlabel("Temperature (°C)")
         ax.set_ylabel("Pressure (kbar)")
 
-        if variable == "vol":
-            label = f"Volume fraction of {mineral}"
-        else:
-            label = f"{variable} of {mineral}"
         fig.colorbar(im, ax=ax, label=label)
 
         return fig, ax
 
-    def plot_isolines(self, variable: str, mineral: str):
+    def plot_isolines(self, variable: str, mineral: str, colormap="viridis", isolines=5, volume_percent=False):
+        """Plot the isolines of a given variable and mineral.
+
+        Args:
+            variable (str): Available variable names: "Al_pfu", "Mg#", "n", "n_H2O", "rho", "vol", "wt_H20", "x_{ENDMEMBER}"
+            mineral (str): A mineral defined in the endmember_dict.
+            colormap (str, optional): A matplotlib colormap, e.g. 'viridis', 'plasma', 'inferno', 'magma', 'cividis'. Defaults to "viridis".
+            isolines (int, array-like, optional): If int, the number of isolines to plot. If array-like, the values of the isolines to plot. Defaults to 5.
+            volume_percent (bool, optional): Plots volume fraction as vol% if True. Defaults to False.
+
+        Returns:
+            fig: A matplotlib Figure object.
+            ax: A matplotlib Axes object.
+        """
         pix_array = self.read_mineral_pixelmap(variable, mineral)
 
+        if variable == "vol":
+            if volume_percent:
+                pix_array = pix_array * 100
+                label = f"{mineral} [vol%]"
+            else:
+                label = f"Volume fraction of {mineral}"
+        else:
+            label = f"{variable} of {mineral}"
+
         fig, ax = plt.subplots()
-        im = ax.contourf(self.PT_grid[0], self.PT_grid[1], pix_array, cmap="viridis", origin="lower",
+        im = ax.contourf(self.PT_grid[0], self.PT_grid[1], pix_array,
+                         levels=isolines, cmap=colormap, origin="lower",
                          extent=[self.T_limits[0], self.T_limits[1], self.P_limits[0]/1000, self.P_limits[1]/1000])
         ax.set_xlabel("Temperature (°C)")
         ax.set_ylabel("Pressure (kbar)")
 
         # annotate contours lines values
-        CS = ax.contour(self.PT_grid[0], self.PT_grid[1], pix_array, colors="k", origin="lower", linewidths=0.5)
+        CS = ax.contour(self.PT_grid[0], self.PT_grid[1], pix_array, levels=isolines, colors="k", origin="lower", linewidths=0.5)
         ax.clabel(CS, inline=True)
 
-        if variable == "vol":
-            label = f"Volume fraction of {mineral}"
-        else:
-            label = f"{variable} of {mineral}"
         fig.colorbar(im, ax=ax, label=label)
 
         return fig, ax
