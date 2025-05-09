@@ -1,0 +1,167 @@
+SI(70.999)TI(0.758)AL(12.805)AL(12.805)FE(6.342)MN(0.075)MG(3.978)CA(0.771)NA(1.481)NA(1.481)K(2.7895)K(2.7895)H(60.0)O(?)O(0.72933)
+ Bulk composition: O         228.094830
+                   AL         25.610000
+                   CA          0.771000
+                   FE          6.342000
+                   H          60.000000
+                   K           5.579000
+                   MN          0.075000
+                   MG          3.978000
+                   NA          2.962000
+                   SI         70.999000
+                   TI          0.758000
+                   E           0.000000
+ ASSEMBLAGE:   1: x,y =  6.03000000E+02   2.10000000E+03  (2)FSP PHNG CORD MAG q H2O                                                      
+      assemblage: FSP_san FSP_abh PHNG_mu CORD_hcrd MAG_imt q H2O
+ ASSEMBLAGE:   2: x,y =  6.09000000E+02   2.10000000E+03  (2)FSP CORD MAG and q H2O                                                       
+      assemblage: FSP_san FSP_abh CORD_hcrd MAG_imt and q H2O
+ ASSEMBLAGE:   3: x,y =  6.93000000E+02   2.10000000E+03  (2)FSP CORD MAG LIQtc6 and q H2O                                                
+      assemblage: FSP_san FSP_abh CORD_hcrd MAG_imt LIQtc6_h2oL and q H2O
+ ASSEMBLAGE:   4: x,y =  7.05000000E+02   2.10000000E+03  FSP CORD MAG LIQtc6 and q H2O                                                   
+      assemblage: FSP_anc1 CORD_hcrd MAG_imt LIQtc6_h2oL and q H2O
+ ASSEMBLAGE:   5: x,y =  7.11000000E+02   2.10000000E+03  FSP CORD MAG LIQtc6 and H2O                                                     
+      assemblage: FSP_anc1 CORD_hcrd MAG_imt LIQtc6_h2oL and H2O
+ ASSEMBLAGE:   6: x,y =  7.23000000E+02   2.10000000E+03  FSP CORD MAG LIQtc6 H2O                                                         
+      assemblage: FSP_anc1 CORD_hcrd MAG_imt LIQtc6_h2oL H2O
+ ASSEMBLAGE:   7: x,y =  8.25000000E+02   2.10000000E+03  CORD MAG LIQtc6 H2O                                                             
+      assemblage: CORD_hcrd MAG_imt LIQtc6_h2oL H2O
+ ASSEMBLAGE:   8: x,y =  7.17000000E+02   2.30000000E+03  FSP CORD MAG LIQtc6 sill H2O                                                    
+      assemblage: FSP_anc1 CORD_hcrd MAG_imt LIQtc6_h2oL sill H2O
+ ASSEMBLAGE:   9: x,y =  6.03000000E+02   2.50000000E+03  (2)FSP PHNG BIO CORD MAG q H2O                                                  
+      assemblage: FSP_san FSP_abh PHNG_mu BIO_ann2 CORD_hcrd MAG_imt q H2O
+ ASSEMBLAGE:  10: x,y =  6.99000000E+02   2.50000000E+03  FSP CORD MAG LIQtc6 sill q H2O                                                  
+      assemblage: FSP_anc1 CORD_hcrd MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  11: x,y =  6.03000000E+02   2.70000000E+03  FSP PHNG BIO CORD MAG q H2O                                                     
+      assemblage: FSP_abh PHNG_mu BIO_ann2 CORD_hcrd MAG_imt q H2O
+ ASSEMBLAGE:  12: x,y =  6.81000000E+02   2.70000000E+03  (2)FSP CORD MAG sill q H2O                                                      
+      assemblage: FSP_san FSP_abh CORD_hcrd MAG_imt sill q H2O
+ ASSEMBLAGE:  13: x,y =  6.87000000E+02   2.70000000E+03  (2)FSP CORD MAG LIQtc6 sill q H2O                                               
+      assemblage: FSP_san FSP_abh CORD_hcrd MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  14: x,y =  6.03000000E+02   3.70000000E+03  GRT FSP PHNG BIO CORD MAG q H2O                                                 
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_ann2 CORD_hcrd MAG_imt q H2O
+ ASSEMBLAGE:  15: x,y =  6.57000000E+02   3.90000000E+03  GRT (2)FSP PHNG BIO CORD MAG q H2O                                              
+      assemblage: GRT_alm FSP_san FSP_abh PHNG_mu BIO_ann2 CORD_hcrd MAG_imt q H2O
+ ASSEMBLAGE:  16: x,y =  6.69000000E+02   4.10000000E+03  GRT (2)FSP CORD MAG sill q H2O                                                  
+      assemblage: GRT_alm FSP_san FSP_abh CORD_hcrd MAG_imt sill q H2O
+ ASSEMBLAGE:  17: x,y =  6.69000000E+02   4.30000000E+03  GRT (2)FSP PHNG BIO CORD MAG LIQtc6 q H2O                                       
+      assemblage: GRT_alm FSP_san FSP_abh PHNG_mu BIO_ann2 CORD_hcrd MAG_imt LIQtc6_h2oL q H2O
+ ASSEMBLAGE:  18: x,y =  6.75000000E+02   4.30000000E+03  GRT (2)FSP CORD MAG LIQtc6 sill q H2O                                           
+      assemblage: GRT_alm FSP_san FSP_abh CORD_hcrd MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  19: x,y =  6.93000000E+02   4.30000000E+03  GRT FSP CORD MAG LIQtc6 sill q H2O                                              
+      assemblage: GRT_alm FSP_anc1 CORD_hcrd MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  20: x,y =  6.03000000E+02   4.50000000E+03  GRT FSP PHNG BIO CORD STAU MAG q H2O                                            
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_ann2 CORD_hcrd STAU_fst MAG_imt q H2O
+ ASSEMBLAGE:  21: x,y =  6.69000000E+02   4.50000000E+03  GRT FSP PHNG BIO CORD MAG LIQtc6 q H2O                                          
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_ann2 CORD_hcrd MAG_imt LIQtc6_h2oL q H2O
+ ASSEMBLAGE:  22: x,y =  6.81000000E+02   4.50000000E+03  GRT (2)FSP PHNG CORD MAG LIQtc6 q H2O                                           
+      assemblage: GRT_alm FSP_san FSP_anc1 PHNG_mu CORD_hcrd MAG_imt LIQtc6_h2oL q H2O
+ ASSEMBLAGE:  23: x,y =  7.53000000E+02   4.50000000E+03  CORD MAG LIQtc6 sill H2O                                                        
+      assemblage: CORD_hcrd MAG_imt LIQtc6_h2oL sill H2O
+ ASSEMBLAGE:  24: x,y =  6.03000000E+02   4.70000000E+03  GRT FSP PHNG BIO CHLR MAG q H2O                                                 
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_ann2 CHLR_ames MAG_imt q H2O
+ ASSEMBLAGE:  25: x,y =  6.87000000E+02   4.70000000E+03  GRT FSP PHNG CORD MAG LIQtc6 sill q H2O                                         
+      assemblage: GRT_alm FSP_anc1 PHNG_mu CORD_hcrd MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  26: x,y =  7.29000000E+02   4.70000000E+03  GRT FSP CORD MAG LIQtc6 sill H2O                                                
+      assemblage: GRT_alm FSP_anc1 CORD_hcrd MAG_imt LIQtc6_h2oL sill H2O
+ ASSEMBLAGE:  27: x,y =  6.09000000E+02   4.90000000E+03  GRT FSP PHNG BIO STAU CHLR MAG q H2O                                            
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_phl STAU_fst CHLR_ames MAG_imt q H2O
+ ASSEMBLAGE:  28: x,y =  6.15000000E+02   4.90000000E+03  GRT FSP PHNG BIO CORD MAG sill q H2O                                            
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_phl CORD_hcrd MAG_imt sill q H2O
+ ASSEMBLAGE:  29: x,y =  7.41000000E+02   4.90000000E+03  GRT CORD MAG LIQtc6 sill H2O                                                    
+      assemblage: GRT_alm CORD_hcrd MAG_imt LIQtc6_h2oL sill H2O
+ ASSEMBLAGE:  30: x,y =  6.21000000E+02   5.30000000E+03  GRT FSP PHNG BIO MAG sill q H2O                                                 
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_phl MAG_imt sill q H2O
+ ASSEMBLAGE:  31: x,y =  6.75000000E+02   5.30000000E+03  GRT FSP PHNG BIO CORD MAG LIQtc6 sill q H2O                                     
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_phl CORD_hcrd MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  32: x,y =  7.29000000E+02   5.30000000E+03  GRT CORD MAG LIQtc6 sill q H2O                                                  
+      assemblage: GRT_alm CORD_hcrd MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  33: x,y =  8.01000000E+02   5.50000000E+03  GRT CORD MAG LIQtc6 H2O                                                         
+      assemblage: GRT_alm CORD_hcrd MAG_imt LIQtc6_h2oL H2O
+ ASSEMBLAGE:  34: x,y =  8.97000000E+02   5.50000000E+03  CORD MAG LIQtc6                                                                 
+      assemblage: CORD_hcrd MAG_imt LIQtc6_h2oL
+ ASSEMBLAGE:  35: x,y =  6.27000000E+02   5.70000000E+03  GRT FSP PHNG BIO STAU CHLR MAG sill q H2O                                       
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_phl STAU_fst CHLR_clin MAG_imt sill q H2O
+ ASSEMBLAGE:  36: x,y =  6.99000000E+02   5.70000000E+03  GRT FSP BIO CORD MAG LIQtc6 sill q H2O                                          
+      assemblage: GRT_alm FSP_anc1 BIO_phl CORD_hcrd MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  37: x,y =  6.33000000E+02   5.90000000E+03  GRT FSP PHNG BIO STAU MAG sill q H2O                                            
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_phl STAU_fst MAG_imt sill q H2O
+ ASSEMBLAGE:  38: x,y =  6.75000000E+02   5.90000000E+03  GRT FSP PHNG BIO MAG LIQtc6 sill q H2O                                          
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_phl MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  39: x,y =  6.99000000E+02   6.10000000E+03  GRT FSP BIO MAG LIQtc6 sill q H2O                                               
+      assemblage: GRT_alm FSP_anc1 BIO_phl MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  40: x,y =  8.25000000E+02   6.10000000E+03  GRT CORD MAG LIQtc6 sill                                                        
+      assemblage: GRT_alm CORD_hcrd MAG_imt LIQtc6_h2oL sill
+ ASSEMBLAGE:  41: x,y =  8.37000000E+02   6.10000000E+03  GRT CORD MAG LIQtc6                                                             
+      assemblage: GRT_alm CORD_hcrd MAG_imt LIQtc6_h2oL
+ ASSEMBLAGE:  42: x,y =  6.39000000E+02   6.30000000E+03  GRT FSP PHNG BIO STAU MAG q H2O                                                 
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_phl STAU_fst MAG_imt q H2O
+ ASSEMBLAGE:  43: x,y =  7.11000000E+02   6.30000000E+03  GRT BIO CORD MAG LIQtc6 sill q H2O                                              
+      assemblage: GRT_alm BIO_phl CORD_hcrd MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  44: x,y =  6.51000000E+02   6.70000000E+03  GRT FSP PHNG BIO STAU MAG ky q H2O                                              
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_phl STAU_fst MAG_imt ky q H2O
+ ASSEMBLAGE:  45: x,y =  6.57000000E+02   6.90000000E+03  GRT FSP PHNG BIO MAG ky q H2O                                                   
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_phl MAG_imt ky q H2O
+ ASSEMBLAGE:  46: x,y =  7.17000000E+02   6.90000000E+03  GRT BIO MAG LIQtc6 sill q H2O                                                   
+      assemblage: GRT_alm BIO_phl MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  47: x,y =  7.59000000E+02   6.90000000E+03  GRT CORD MAG LIQtc6 sill q                                                      
+      assemblage: GRT_alm CORD_hcrd MAG_imt LIQtc6_h2oL sill q
+ ASSEMBLAGE:  48: x,y =  7.11000000E+02   7.30000000E+03  GRT PHNG BIO MAG LIQtc6 sill q H2O                                              
+      assemblage: GRT_alm PHNG_mu BIO_phl MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  49: x,y =  6.81000000E+02   7.50000000E+03  GRT FSP PHNG BIO MAG LIQtc6 ky q H2O                                            
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_phl MAG_imt LIQtc6_h2oL ky q H2O
+ ASSEMBLAGE:  50: x,y =  8.01000000E+02   7.50000000E+03  GRT OPX6 CORD MAG LIQtc6 sill                                                   
+      assemblage: GRT_alm OPX6_fm CORD_hcrd MAG_imt LIQtc6_h2oL sill
+ ASSEMBLAGE:  51: x,y =  7.41000000E+02   7.70000000E+03  GRT BIO OPX6 CORD MAG LIQtc6 sill q H2O                                         
+      assemblage: GRT_alm BIO_phl OPX6_fm CORD_hcrd MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  52: x,y =  7.47000000E+02   7.70000000E+03  GRT OPX6 CORD MAG LIQtc6 sill q                                                 
+      assemblage: GRT_alm OPX6_fm CORD_hcrd MAG_imt LIQtc6_h2oL sill q
+ ASSEMBLAGE:  53: x,y =  6.51000000E+02   7.90000000E+03  GRT FSP PHNG BIO CHLR MAG ky q H2O                                              
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_phl CHLR_clin MAG_imt ky q H2O
+ ASSEMBLAGE:  54: x,y =  7.41000000E+02   7.90000000E+03  GRT BIO OPX6 MAG LIQtc6 sill q H2O                                              
+      assemblage: GRT_alm BIO_phl OPX6_fm MAG_imt LIQtc6_h2oL sill q H2O
+ ASSEMBLAGE:  55: x,y =  8.79000000E+02   7.90000000E+03  OPX6 CORD MAG LIQtc6 sill                                                       
+      assemblage: OPX6_fm CORD_hcrd MAG_imt LIQtc6_h2oL sill
+ ASSEMBLAGE:  56: x,y =  7.11000000E+02   8.10000000E+03  GRT PHNG BIO MAG LIQtc6 ky q H2O                                                
+      assemblage: GRT_alm PHNG_mu BIO_phl MAG_imt LIQtc6_h2oL ky q H2O
+ ASSEMBLAGE:  57: x,y =  7.47000000E+02   8.10000000E+03  GRT OPX6 MAG LIQtc6 sill q                                                      
+      assemblage: GRT_alm OPX6_fm MAG_imt LIQtc6_h2oL sill q
+ ASSEMBLAGE:  58: x,y =  8.13000000E+02   8.10000000E+03  GRT OPX6 MAG LIQtc6 sill                                                        
+      assemblage: GRT_alm OPX6_fm MAG_imt LIQtc6_h2oL sill
+ ASSEMBLAGE:  59: x,y =  7.47000000E+02   8.30000000E+03  GRT BIO OPX6 MAG LIQtc6 sill q                                                  
+      assemblage: GRT_alm BIO_phl OPX6_fm MAG_imt LIQtc6_h2oL sill q
+ ASSEMBLAGE:  60: x,y =  8.49000000E+02   8.30000000E+03  OPX6 MAG LIQtc6 sill                                                            
+      assemblage: OPX6_fm MAG_imt LIQtc6_h2oL sill
+ ASSEMBLAGE:  61: x,y =  7.29000000E+02   8.50000000E+03  GRT BIO MAG LIQtc6 ky q H2O                                                     
+      assemblage: GRT_alm BIO_phl MAG_imt LIQtc6_h2oL ky q H2O
+ ASSEMBLAGE:  62: x,y =  7.47000000E+02   8.90000000E+03  GRT BIO OPX6 MAG LIQtc6 ky q H2O                                                
+      assemblage: GRT_alm BIO_phl OPX6_fm MAG_imt LIQtc6_h2oL ky q H2O
+ ASSEMBLAGE:  63: x,y =  7.53000000E+02   8.90000000E+03  GRT BIO OPX6 MAG LIQtc6 ky q                                                    
+      assemblage: GRT_alm BIO_phl OPX6_fm MAG_imt LIQtc6_h2oL ky q
+ ASSEMBLAGE:  64: x,y =  7.59000000E+02   9.10000000E+03  GRT OPX6 MAG LIQtc6 ky q                                                        
+      assemblage: GRT_alm OPX6_fm MAG_imt LIQtc6_h2oL ky q
+ ASSEMBLAGE:  65: x,y =  7.47000000E+02   9.30000000E+03  GRT BIO MAG LIQtc6 ky q                                                         
+      assemblage: GRT_alm BIO_phl MAG_imt LIQtc6_h2oL ky q
+ ASSEMBLAGE:  66: x,y =  6.03000000E+02   9.70000000E+03  GRT FSP (2)PHNG BIO CHLR MAG q H2O                                              
+      assemblage: GRT_alm FSP_abh PHNG_mu PHNG_pa BIO_phl CHLR_clin MAG_imt q H2O
+ ASSEMBLAGE:  67: x,y =  6.03000000E+02   1.03000000E+04  GRT (2)PHNG BIO CHLR MAG zo q H2O                                               
+      assemblage: GRT_alm PHNG_mu PHNG_pa BIO_phl CHLR_clin MAG_imt zo q H2O
+ ASSEMBLAGE:  68: x,y =  7.47000000E+02   1.03000000E+04  GRT PHNG BIO MAG LIQtc6 ky q                                                    
+      assemblage: GRT_alm PHNG_mu BIO_phl MAG_imt LIQtc6_h2oL ky q
+ ASSEMBLAGE:  69: x,y =  6.09000000E+02   1.05000000E+04  GRT (2)PHNG BIO CHLR MAG q H2O                                                  
+      assemblage: GRT_alm PHNG_mu PHNG_pa BIO_phl CHLR_clin MAG_imt q H2O
+ ASSEMBLAGE:  70: x,y =  6.69000000E+02   1.09000000E+04  GRT FSP PHNG BIO CHLR MAG LIQtc6 q H2O                                          
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_phl CHLR_clin MAG_imt LIQtc6_h2oL q H2O
+ ASSEMBLAGE:  71: x,y =  6.75000000E+02   1.09000000E+04  GRT FSP PHNG BIO CHLR MAG LIQtc6 ky q H2O                                       
+      assemblage: GRT_alm FSP_abh PHNG_mu BIO_phl CHLR_clin MAG_imt LIQtc6_h2oL ky q H2O
+ ASSEMBLAGE:  72: x,y =  6.75000000E+02   1.11000000E+04  GRT PHNG BIO CHLR MAG LIQtc6 q H2O                                              
+      assemblage: GRT_alm PHNG_mu BIO_phl CHLR_clin MAG_imt LIQtc6_h2oL q H2O
+ ASSEMBLAGE:  73: x,y =  6.57000000E+02   1.13000000E+04  GRT (2)PHNG BIO MAG q H2O                                                       
+      assemblage: GRT_alm PHNG_mu PHNG_pa BIO_phl MAG_imt q H2O
+ ASSEMBLAGE:  74: x,y =  6.63000000E+02   1.13000000E+04  GRT FSP (2)PHNG BIO MAG q H2O                                                   
+      assemblage: GRT_alm FSP_abh PHNG_mu PHNG_pa BIO_phl MAG_imt q H2O
+ ASSEMBLAGE:  75: x,y =  6.69000000E+02   1.13000000E+04  GRT FSP (2)PHNG BIO MAG LIQtc6 q H2O                                            
+      assemblage: GRT_alm FSP_abh PHNG_mu PHNG_pa BIO_phl MAG_imt LIQtc6_h2oL q H2O
+ ASSEMBLAGE:  76: x,y =  6.69000000E+02   1.15000000E+04  GRT (2)PHNG BIO MAG LIQtc6 q H2O                                                
+      assemblage: GRT_alm PHNG_mu PHNG_pa BIO_phl MAG_imt LIQtc6_h2oL q H2O
+ exit DOMINO
+ CPU time:    0h 13m 01.55s
