@@ -204,15 +204,19 @@ class PixelMap:
             label = f"{variable} of {mineral}"
 
         fig, ax = plt.subplots()
-        im = ax.contourf(self.PT_grid[0], self.PT_grid[1], pix_array,
+        im = ax.contourf(pix_array,
                          levels=isolines, cmap=colormap, origin="lower",
                          extent=[self.T_limits[0], self.T_limits[1], self.P_limits[0]/1000, self.P_limits[1]/1000])
         ax.set_xlabel("Temperature (°C)")
         ax.set_ylabel("Pressure (kbar)")
 
         # annotate contours lines values
-        CS = ax.contour(self.PT_grid[0], self.PT_grid[1], pix_array, levels=isolines, colors="k", origin="lower", linewidths=0.5)
+        CS = ax.contour(pix_array, levels=isolines, colors="k", origin="lower", linewidths=0.5,
+                        extent=[self.T_limits[0], self.T_limits[1], self.P_limits[0]/1000, self.P_limits[1]/1000])
         ax.clabel(CS, inline=True)
+
+        ax.set_xlim(self.T_limits[0], self.T_limits[1])
+        ax.set_ylim(self.P_limits[0]/1000, self.P_limits[1]/1000)
 
         fig.colorbar(im, ax=ax, label=label)
 
